@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from "./components/Container";
+import "./card.css";
+import {UserName} from "./components/Myname"
+// my App.js file
+const App = () => {
+    return(
+        
+        <>
+        {/* my compoenent used in the app js */}
+        <UserName className="user"></UserName>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+        <div className="card">
+        <Container></Container>
+        <Container></Container>
+        <Container></Container>
 
+        </div>
+    
+
+        </>
+    )
+};
 export default App;

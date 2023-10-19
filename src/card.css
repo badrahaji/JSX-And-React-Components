@@ -1,0 +1,60 @@
+/* my styling for my composants*/
+body{
+    margin: 0;
+    background-image: url("yammi.png");
+    opacity: 100%;
+}
+.card{
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18) ; 
+    
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;    
+}
+.container img{
+    height: 250px;
+}
+.container{
+    background-color:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18) ; 
+    opacity: 80%;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    scroll-snap-align: center;
+    text-align: center;
+    font-size: 60;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+color: white;
+align-content: center;
+
+font-weight: 800;
+word-spacing: 10%;
+}
+.user{
+    
+    background-color:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18) ; 
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    justify-content: space-evenly;
+margin-bottom: 20px;
+margin-top: 20px;
+}
